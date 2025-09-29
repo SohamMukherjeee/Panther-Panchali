@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import Parallel from "../components/Parallel";
 import SideBarPhoto from "../components/SideBarPhoto";
+import Charc from "../components/Charc";
+import bgFoto from "../assets/BgFoto.png"
 function LandingPage() {
   return (
     <>
@@ -13,8 +15,7 @@ function LandingPage() {
         <div className="ScrollOne w-full lg:w-4/5 ml-0 lg:ml-[20%] bg-[#FEFFFC] flex flex-col overflow-y-auto h-screen">
           <Header/>
           <Parallel />
-          <Header/>
-          <Header/>
+          <Charc photoPath={bgFoto} />
         </div>
       </div>
     </>
