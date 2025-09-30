@@ -1,23 +1,12 @@
 
-function Charc({photoPath}){
+function Charc({pfp,signature,role,name}){
     return(
         <>
-       <div class="max-w-sm mx-auto filter grayscale hover:grayscale-0 transition-all duration-500 ease-in-out">
-  <div class="overflow-hidden rounded-xl shadow-lg">
-    <img
-      src={photoPath}
-      alt="Nature"
-      class="w-full h-56 object-cover "
-    />
-
-    <div class="p-4 bg-white">
-      <h3 class="text-lg font-semibold text-gray-900">Beautiful Nature</h3>
-      <p class="mt-2 text-sm text-gray-600">
-        This image starts in black & white, but becomes colorful when you hover.
-      </p>
-    </div>
-  </div>
-</div>
+  <h1>{role}</h1>
+  <img src={pfp} alt="writer" className="filter grayscale hover:grayscale-0 transition-all duration-500 ease-in-out" />
+   <h2>{name}</h2>
+  <img src={signature} alt="" srcset="" className="w-1/2" />
+        
 
         </>
     )
