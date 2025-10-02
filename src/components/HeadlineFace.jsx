@@ -3,15 +3,15 @@ import { motion } from "motion/react";
 
 export const DrawCircleText = () => {
   return (
-    <div className="grid place-content-center px-4  text-black">
-      <h1 className="max-w-2xl text-center text-5xl leading-snug">
-        The Faces of 
-
-        <span className="relative">
-{" "}Nischindipur          <svg
+    <div className="grid place-content-center px-4 text-black">
+      <h1 className="max-w-2xl text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-snug relative">
+        The Faces of{" "}
+        <span className="relative inline-block">
+          Nischindipur
+          <svg
             viewBox="0 0 286 73"
             fill="none"
-            className="absolute  -left-0 -right-7 -top-8 bottom-4 translate-y-5 w-80"
+            className="absolute left-0 right-2 -top-2 sm:-top-4 md:-top-4 w-40 sm:w-56 md:w-60 lg:w-80 mx-auto"
           >
             <motion.path
               initial={{ pathLength: 0 }}
@@ -22,12 +22,13 @@ export const DrawCircleText = () => {
               }}
               d="M142.293 1C106.854 16.8908 6.08202 7.17705 1.23654 43.3756C-2.10604 68.3466 29.5633 73.2652 122.688 71.7518C215.814 70.2384 316.298 70.689 275.761 38.0785C230.14 1.37835 97.0503 24.4575 52.9384 1"
               stroke="#8B8B8B"
-              strokeWidth="1"
+              strokeWidth="1.5"
             />
           </svg>
-        </span>{" "}
-</h1>
+        </span>
+      </h1>
     </div>
   );
 };
+
 export default DrawCircleText;

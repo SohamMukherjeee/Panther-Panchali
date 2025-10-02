@@ -16,7 +16,7 @@ function LandingPage() {
           <Header/>
           <Parallel />
           <CreditSec/>
-          <Faces/>
+         <Faces/>
         </div>
       </div>
     </>
