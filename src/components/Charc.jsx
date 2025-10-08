@@ -10,7 +10,9 @@ function Charc({
   return (
     <div className="flex flex-col items-center text-center">
       {/* Role */}
-      <h1 className="text-lg sm:text-xl md:text-2xl font-medium mb-2">{role}</h1>
+      <h1 className="text-lg sm:text-xl md:text-2xl font-medium mb-2">
+        {role}
+      </h1>
 
       {/* Profile image */}
       <img
