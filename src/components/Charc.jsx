@@ -32,7 +32,7 @@ function Charc({
       <img
         src={signature}
         alt={`${name} signature`}
-        className={`mt-3 w-1/2 sm:w-1/3 md:w-1/4 ${signatureClassName}`}
+        className={` ${signatureClassName}`}
       />
     </div>
   );

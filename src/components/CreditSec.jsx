@@ -23,7 +23,7 @@ function CreditSec() {
               role="Writer"
               name="Bibhutibhushan Bandyopadhyay"
               pfpClassName="w-1/4 sm:w-1/4 lg:w-1/2 p-5 sm:p-0 "
-              signatureClassName="w-1/2 sm:w-1/3 mt-4"
+              signatureClassName="w-1/2 sm:w-1/2 mt-4"
             />
           </div>
 
