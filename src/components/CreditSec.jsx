@@ -9,7 +9,10 @@ function CreditSec() {
     <>
       <div className="flex flex-col items-center justify-center w-full px-4 py-10 sm:py-16 md:py-20 border-b-2 border-[#DDE3DD]">
         {/* Title */}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-10">
+        <h1
+          className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-10"
+          style={{ fontFamily: "'Instrument Serif', serif", fontWeight: 400 }}
+        >
           The Minds Behind Pather Panchali
         </h1>
 

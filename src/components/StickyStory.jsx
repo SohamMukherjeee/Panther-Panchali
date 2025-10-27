@@ -22,8 +22,8 @@ const slides = [
   {
     id: 2,
     image: img3,
-    title: "Chapter Three",
-    body: "An old writer keeps the memory of the town in ink and paper.",
+    title: "Sarbajaya (Mother)",
+    body: "Strong yet weary, balancing love with survival.",
   },
 ];
 
